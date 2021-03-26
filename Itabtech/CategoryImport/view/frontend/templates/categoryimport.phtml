@@ -1,0 +1,9 @@
+<div class="import-category">
+    <div class="header">
+        <h4>CSV File:</h4>
+    </div>
+    <form class="import-category-form" action="<?php echo $this->getUrl('categoryimport/index/index'); ?>" method="post" enctype="multipart/form-data">
+        <input type="file" required class="required-entry" name="file_upload" />
+        <button type="submit">Import</button>
+    </form>
+</div>
